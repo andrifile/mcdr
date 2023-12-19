@@ -1,0 +1,84 @@
+@charset "utf-8";
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: small;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #333;
+	background-color: #FFF;
+	letter-spacing: normal;
+	text-align: left;
+	word-spacing: normal;
+	list-style-position: outside;
+	list-style-type: upper-alpha;
+	margin-left:25px;
+	font-size:x-small;
+	width:750px;
+}
+a, a:link, a:visited {
+	color: #C00;
+	text-decoration: none;
+	font-size:1.1em;
+	line-height:1.2em;
+}
+
+a:hover {
+	color:#C60;
+	text-decoration:underline;
+	font-size:1.1em;
+	line-height:1.2em;
+}
+
+.indexlinks {
+	margin-left:50px;
+	margin-top:25px;
+}
+
+.even {
+	background: #DFDFDF;
+	line-height: 1.5em;
+	width:200mm;
+}
+
+.odd {
+	/*background: #EAEAEA;*/
+	line-height: 1.5em;
+	width:200mm;
+}
+
+.error {
+	background: #ffcc99;
+	line-height: 1.5em;
+	width:200mm;
+}
+
+.theader {
+	background: #DeDeDe;
+	line-height: 1.5em;
+}
+
+.hrule {
+	border: 1px solid #000;
+	height: 0px;
+	width: 200mm;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.info {
+	border:1px solid #333;
+	width: 200mm;
+	margin-bottom: 30px;
+}
+
+.ktotale {
+	text-align:left;
+	margin-top:10px;
+	/*position:absolute;
+	top:210px;*/
+}
+.lista {
+	width:800px;
+}
